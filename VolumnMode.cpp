@@ -8,9 +8,14 @@
 
 #include "VolumnMode.h"
 
+const int VolumnMode::On=0;
+const int VolumnMode::Off=1;
+
+int VolumnMode::m_VolumnMode=VolumnMode::On;
+
 int VolumnMode::getVolumnMode()
 {
-    return m_VolumnMode;
+  return m_VolumnMode;
 }
 
 void VolumnMode::changeVolumnMode()

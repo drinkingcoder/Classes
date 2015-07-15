@@ -1,13 +1,13 @@
 //
 //  GameCtrlLayer.h
-//  HelloWorldDemo
+//  GameDemo
 //
 //  Created by drinking on 7/14/15.
 //
 //
 
-#ifndef __HelloWorldDemo__GameCtrlLayer__
-#define __HelloWorldDemo__GameCtrlLayer__
+#ifndef __GameDemo__GameCtrlLayer__
+#define __GameDemo__GameCtrlLayer__
 
 #include <stdio.h>
 
@@ -20,4 +20,4 @@ private:
     void clickBackToMenu();
 };
 
-#endif /* defined(__HelloWorldDemo__GameCtrlLayer__) */
+#endif /* defined(__GameDemo__GameCtrlLayer__) */

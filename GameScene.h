@@ -1,13 +1,13 @@
 //
 //  GameScene.h
-//  HelloWorldDemo
+//  GameDemo
 //
 //  Created by drinking on 7/14/15.
 //
 //
 
-#ifndef __HelloWorldDemo__GameScene__
-#define __HelloWorldDemo__GameScene__
+#ifndef __GameDemo__GameScene__
+#define __GameDemo__GameScene__
 
 #include <stdio.h>
 #include "GameLayer.h"
@@ -30,4 +30,4 @@ private:
     GameOverLayer* m_gameoverlayer;
 };
 
-#endif /* defined(__HelloWorldDemo__GameScene__) */
+#endif /* defined(__GameDemo__GameScene__) */

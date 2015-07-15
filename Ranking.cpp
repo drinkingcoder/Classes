@@ -8,6 +8,8 @@
 
 #include "Ranking.h"
 
+int Ranking::rank[MAXRANKNUMBER]={0};
+
 int Ranking::getBestScore()
 {
     return rank[0];

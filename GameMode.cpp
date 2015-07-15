@@ -8,6 +8,12 @@
 
 #include "GameMode.h"
 
+const int GameMode::Easy=0;
+const int GameMode::Difficult=1;
+const int GameMode::Insane=2;
+
+int GameMode::m_GameMode=0;
+
 int GameMode::getGameMode()
 {
     return m_GameMode;

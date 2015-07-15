@@ -22,14 +22,14 @@ bool GameCtrlLayer::init()
     Menu* menuBack = Menu::create(menuItemLabelBack,NULL);
     menuBack->setPosition(Vec2(20,20));
     this->addChild(menuBack);
-    menuItemLabelBack->runAction(
+ /*   menuItemLabelBack->runAction(
                     RepeatForever::create(
                         Sequence::create(
                                 MoveTo::create(2, Vec2(20,visibleSize.height-20)),
                                 MoveTo::create(2,Vec2(visibleSize.width-20,visibleSize.height-20)),
                                 MoveTo::create(2, Vec2(visibleSize.width-20,20)),
                                 MoveTo::create(2, Vec2(20, 20)),
-                    NULL)));
+                    NULL)));*/
     
     return true;
 }

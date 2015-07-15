@@ -86,6 +86,7 @@ void MenuCtrlLayer::clickRank()
 
 void MenuCtrlLayer::clickSettings()
 {
+    m_MenuCtrlLayerDelegate->menuCtrlLayerClickSettings();
 }
 
 void MenuCtrlLayer::clickVolumnMode()

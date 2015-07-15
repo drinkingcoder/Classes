@@ -6,8 +6,8 @@
 //
 //
 
-#ifndef __HelloWorldDemo__Ranking__
-#define __HelloWorldDemo__Ranking__
+#ifndef __GameDemo__Ranking__
+#define __GameDemo__Ranking__
 
 #define MAXRANKNUMBER   5
 
@@ -25,7 +25,5 @@ public:
 private:
     static int rank[MAXRANKNUMBER];
 };
-
-int Ranking::rank[MAXRANKNUMBER]={0};
 
 #endif /* defined(__HelloWorldDemo__Ranking__) */

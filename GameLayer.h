@@ -1,13 +1,13 @@
 //
 //  GameLayer.h
-//  HelloWorldDemo
+//  GameDemo
 //
 //  Created by drinking on 7/14/15.
 //
 //
 
-#ifndef __HelloWorldDemo__GameLayer__
-#define __HelloWorldDemo__GameLayer__
+#ifndef __GameDemo__GameLayer__
+#define __GameDemo__GameLayer__
 
 #include <stdio.h>
 
@@ -34,4 +34,4 @@ private:
     void clickGameOver();
 };
 
-#endif /* defined(__HelloWorldDemo__GameLayer__) */
+#endif /* defined(__GameDemo__GameLayer__) */
