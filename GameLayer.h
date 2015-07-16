@@ -1,11 +1,3 @@
-//
-//  GameLayer.h
-//  GameDemo
-//
-//  Created by drinking on 7/14/15.
-//
-//
-
 #ifndef __GameLayer__
 #define __GameLayer__
 

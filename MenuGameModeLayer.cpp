@@ -1,11 +1,3 @@
-//
-//  MenuGameModeLayer.cpp
-//  GameDemo
-//
-//  Created by drinking on 7/16/15.
-//
-//
-
 #include "MenuGameModeLayer.h"
 #include "GameMode.h"
 

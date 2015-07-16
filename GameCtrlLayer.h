@@ -1,11 +1,3 @@
-//
-//  GameCtrlLayer.h
-//  GameDemo
-//
-//  Created by drinking on 7/14/15.
-//
-//
-
 #ifndef __GameCtrlLayer__
 #define __GameCtrlLayer__
 

@@ -1,17 +1,10 @@
-//
-//  GameScene.h
-//  GameDemo
-//
-//  Created by drinking on 7/14/15.
-//
-//
-
-#ifndef __GameDemo__GameScene__
-#define __GameDemo__GameScene__
+#ifndef __GameScene__
+#define __GameScene__
 
 #include <stdio.h>
 #include "GameLayer.h"
 #include "GameOverLayer.h"
+#include "cocos2d.h"
 
 USING_NS_CC;
 

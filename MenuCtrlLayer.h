@@ -1,15 +1,8 @@
-//
-//  MenuCtrlLayer.h
-//  GameDemo
-//
-//  Created by drinking on 7/14/15.
-//
-//
-
-#ifndef __GameDemo__MenuCtrlLayer__
-#define __GameDemo__MenuCtrlLayer__
+#ifndef __MenuCtrlLayer__
+#define __MenuCtrlLayer__
 
 #include <stdio.h>
+#include "cocos2d.h"
 
 USING_NS_CC;
 

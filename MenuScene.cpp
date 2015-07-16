@@ -1,11 +1,3 @@
-//
-//  MenuScene.cpp
-//  HelloWorldDemo
-//
-//  Created by drinking on 7/14/15.
-//
-//
-
 #include "MenuScene.h"
 #include "MenuCtrlLayer.h"
 

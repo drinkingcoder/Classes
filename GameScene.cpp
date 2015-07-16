@@ -1,11 +1,3 @@
-//
-//  GameScene.cpp
-//  HelloWorldDemo
-//
-//  Created by drinking on 7/14/15.
-//
-//
-
 #include "GameScene.h"
 #include "GameCtrlLayer.h"
 

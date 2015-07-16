@@ -1,11 +1,3 @@
-//
-//  GameOverLayer.cpp
-//  HelloWorldDemo
-//
-//  Created by drinking on 7/14/15.
-//
-//
-
 #include "GameOverLayer.h"
 
 bool GameOverLayer::init()

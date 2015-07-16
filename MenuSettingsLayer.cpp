@@ -1,11 +1,3 @@
-//
-//  MenuSettingsLayer.cpp
-//  GameDemo
-//
-//  Created by drinking on 7/15/15.
-//
-//
-
 #include "MenuSettingsLayer.h"
 #include "VolumnMode.h"
 

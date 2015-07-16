@@ -1,15 +1,8 @@
-//
-//  GameOverLayer.h
-//  GameDemo
-//
-//  Created by drinking on 7/14/15.
-//
-//
-
-#ifndef __GameDemo__GameOverLayer__
-#define __GameDemo__GameOverLayer__
+#ifndef __GameOverLayer__
+#define __GameOverLayer__
 
 #include <stdio.h>
+#include "cocos2d.h"
 
 USING_NS_CC;
 

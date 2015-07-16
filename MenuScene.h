@@ -1,11 +1,3 @@
-//
-//  MenuScene.h
-//  HelloWorldDemo
-//
-//  Created by drinking on 7/14/15.
-//
-//
-
 #ifndef __HelloWorldDemo__MenuScene__
 #define __HelloWorldDemo__MenuScene__
 
@@ -13,6 +5,7 @@
 #include "MenuSettingsLayer.h"
 #include "MenuCtrlLayer.h"
 #include "MenuGameModeLayer.h"
+#include "cocos2d.h"
 
 USING_NS_CC;
 

@@ -1,15 +1,8 @@
-//
-//  MenuSettingsLayer.h
-//  GameDemo
-//
-//  Created by drinking on 7/15/15.
-//
-//
-
-#ifndef __GameDemo__MenuSettingsLayer__
-#define __GameDemo__MenuSettingsLayer__
+#ifndef __MenuSettingsLayer__
+#define __MenuSettingsLayer__
 
 #include <stdio.h>
+#include "cocos2d.h"
 
 USING_NS_CC;
 

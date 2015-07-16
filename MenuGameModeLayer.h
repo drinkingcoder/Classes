@@ -1,15 +1,8 @@
-//
-//  MenuGameModeLayer.h
-//  GameDemo
-//
-//  Created by drinking on 7/16/15.
-//
-//
-
-#ifndef __GameDemo__MenuGameModeLayer__
-#define __GameDemo__MenuGameModeLayer__
+#ifndef __MenuGameModeLayer__
+#define __MenuGameModeLayer__
 
 #include <stdio.h>
+#include "cocos2d.h"
 
 USING_NS_CC;
 
