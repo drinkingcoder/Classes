@@ -17,6 +17,7 @@ class MenuCtrlLayerDelegate
 {
 public:
     virtual void menuCtrlLayerClickSettings()=0;
+    virtual void menuCtrlLayerClickGameMode()=0;
 };
 
 class MenuCtrlLayer : public cocos2d::Layer
@@ -29,7 +30,6 @@ private:
     void clickGameStart();
     void clickGameMode();
     void clickSettings();
-    void clickVolumnMode();
     void clickRank();
     void clickExit();
     MenuCtrlLayerDelegate* m_MenuCtrlLayerDelegate;

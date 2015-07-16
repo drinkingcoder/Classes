@@ -28,6 +28,11 @@ bool MenuScene::init()
     this->addChild(m_MenuSettingsLayer);
     m_MenuSettingsLayer->setScale(0);
     m_MenuSettingsLayer->setReturnDelegate(this);
+    
+    m_MenuGameModeLayer = MenuGameModeLayer::create();
+    this->addChild(m_MenuGameModeLayer);
+    m_MenuGameModeLayer->setScale(0);
+    m_MenuGameModeLayer->setReturnDelegate(this);
     return true;
 }
 
@@ -41,4 +46,16 @@ void MenuScene::menuCtrlLayerClickSettings()
 {
     m_MenuSettingsLayer->setScale(1);
     m_MenuCtrlLayer->setScale(0);
+}
+
+void MenuScene::menuCtrlLayerClickGameMode()
+{
+    m_MenuGameModeLayer->setScale(1);
+    m_MenuCtrlLayer->setScale(0);
+}
+
+void MenuScene::menuGameModeReturn()
+{
+    m_MenuGameModeLayer->setScale(0);
+    m_MenuCtrlLayer->setScale(1);
 }

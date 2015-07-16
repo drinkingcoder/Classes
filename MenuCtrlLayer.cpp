@@ -31,11 +31,6 @@ bool MenuCtrlLayer::init()
                                                                   labelSettings,
                                                                   CC_CALLBACK_0(MenuCtrlLayer::clickSettings,this)
                                                                   );
-    Label* labelVolumnMode = Label::createWithSystemFont("VolumnMode", "fonts/Marker Felt.ttf", 24);
-    MenuItemLabel* menuItemLabelVolumnMode = MenuItemLabel::create(
-                                                                  labelVolumnMode,
-                                                                  CC_CALLBACK_0(MenuCtrlLayer::clickVolumnMode,this)
-                                                                  );
     Label* labelRank = Label::createWithSystemFont("Rank", "fonts/Marker Felt.ttf", 24);
     MenuItemLabel* menuItemLabelRank = MenuItemLabel::create(
                                                                   labelRank,
@@ -51,7 +46,6 @@ bool MenuCtrlLayer::init()
                                    menuItemLabelRank,
                                    menuItemLabelSettings,
                                    menuItemLabelGameMode,
-                                   menuItemLabelVolumnMode,
                                    menuItemLabelExit,
                                 NULL);
     menuStart->setPosition(visibleSize.width/2,visibleSize.height/2);
@@ -74,6 +68,7 @@ void MenuCtrlLayer::clickGameStart()
 
 void MenuCtrlLayer::clickGameMode()
 {
+    m_MenuCtrlLayerDelegate->menuCtrlLayerClickGameMode();
 }
 
 void MenuCtrlLayer::clickExit()
@@ -87,8 +82,4 @@ void MenuCtrlLayer::clickRank()
 void MenuCtrlLayer::clickSettings()
 {
     m_MenuCtrlLayerDelegate->menuCtrlLayerClickSettings();
-}
-
-void MenuCtrlLayer::clickVolumnMode()
-{
 }
