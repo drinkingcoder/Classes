@@ -6,10 +6,11 @@
 //
 //
 
-#ifndef __GameDemo__GameLayer__
-#define __GameDemo__GameLayer__
+#ifndef __GameLayer__
+#define __GameLayer__
 
 #include <stdio.h>
+#include "cocos2d.h"
 
 USING_NS_CC;
 

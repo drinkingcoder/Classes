@@ -6,10 +6,11 @@
 //
 //
 
-#ifndef __GameDemo__GameCtrlLayer__
-#define __GameDemo__GameCtrlLayer__
+#ifndef __GameCtrlLayer__
+#define __GameCtrlLayer__
 
 #include <stdio.h>
+#include "cocos2d.h"
 
 class GameCtrlLayer : public cocos2d::Layer
 {
